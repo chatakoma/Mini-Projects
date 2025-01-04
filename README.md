@@ -19,8 +19,18 @@
 
 <h2>Program walk-through:</h2>
 <p align="left">The images below showcase the mini projects I created.<p/> 
+<h3>Project 1</h3>
+<img src="https://i.imgur.com/0U8zZGm.png" height="100%" width="100%" alt=""/> 
+<h3>Project 2</h3>
+<img src="https://i.imgur.com/ToIfUJj.png" height="100%" width="100%" alt=""/>  
+<h3>Project 3</h3>
+<img src="https://i.imgur.com/O4G5qGG.png" height="100%" width="100%" alt=""/> 
+<h3>Project 4</h3>
+<img src="https://i.imgur.com/MwfknzR.png" height="100%" width="100%" alt=""/>  
+<h3>Project 5</h3>
+<img src="https://i.imgur.com/EXnUOku.png" height="100%" width="100%" alt=""/>  
+ 
 
-<img src="https://i.imgur.com/A0i0C4D.png" height="100%" width="100%" alt=""/>  
 
 </P>
 <br/>
