@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .profile-picture {
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 40px;
+        margin-right: 10px;
+      }
+
+      .flexbox {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .text-flexbox {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: grey;
+      }
+
+      .text1 {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .text2 {
+        color: grey;
+        font-size: 14px;
+      }
+
+      .container {
+        width: 340px;
+        height: 280px;
+        padding-left: 10px;
+        padding-top: 5px;
+        border-radius: 5px;
+        border-width: 1px;
+        box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+      }
+
+      .text3 {
+        margin-right: 10px;
+        color: grey;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">All INBOXES</div>
+      <div class="flexbox">
+        <div><img class="profile-picture" src="cat.jpg" alt="" /></div>
+        <div>
+          <div class="text-flexbox">
+            <div class="text1">Chewy Promotions</div>
+            <div class="text3">4:58PM</div>
+          </div>
+          <div class="text1">Biggest sales of the year!</div>
+          <div class="text2">
+            Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div><img class="profile-picture" src="dog.jpg" alt="" /></div>
+        <div>
+          <div class="text-flexbox">
+            <div class="text1">Best Buy</div>
+            <div class="text2">12:32PM</div>
+          </div>
+          <div class="text1">Your Best Buy eReceipt</div>
+          <div class="text2">Thank you for shopping at Best Buy,here is...</div>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div><img class="profile-picture" src="cat1.jpg" alt="" /></div>
+        <div>
+          <div class="text-flexbox">
+            <div class="text1">Netflix</div>
+            <div class="text2">9:00AM</div>
+          </div>
+          <div class="text1">Here's what's coming soon to Netflix</div>
+          <div class="text2">Brand new movies and shows, old favorites...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

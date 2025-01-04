@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        background-color: blueviolet;
+        justify-content: space-between;
+        width: 600px;
+        align-items: center;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-bottom: 50px;
+      }
+
+      .text {
+        color: white;
+      }
+
+      .Search {
+        width: 300px;
+        border-radius: 12px;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .button {
+        background-color: blueviolet;
+        color: white;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="text">Home</div>
+      <div><input class="Search" type="text" placeholder="Search" /></div>
+      <div><button class="button">Download</button></div>
+    </div>
+
+    <!-- This is another way of writing the above code -->
+
+    <div class="flexbox">
+      <div class="text">Home</div>
+      <input class="Search" placeholder="Search" />
+      <button class="button">Download</button>
+    </div>
+  </body>
+</html>

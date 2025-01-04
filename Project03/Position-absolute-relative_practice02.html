@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .shirt {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
+
+      .discount {
+        position: absolute;
+        background-color: black;
+        color: white;
+        left: 145px;
+        top: 10px;
+        font-size: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .online-shopping {
+        position: relative;
+        display: inline-block;
+        margin-right: 50px;
+      }
+
+      .bottom-overlay {
+        position: absolute;
+        height: 50px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(253, 249, 249, 0.874);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .add-button {
+        position: absolute;
+        bottom: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        left: 60px;
+        background-color: white;
+        border-width: 1px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="online-shopping">
+      <img class="shirt" src="shirt.jpg" alt="" />
+      <div class="discount">20% OFF</div>
+    </div>
+
+    <div class="online-shopping">
+      <img class="shirt" src="shirt.jpg" alt="" />
+      <div class="discount">20% OFF</div>
+      <div class="bottom-overlay">
+        <button class="add-button">Add to Cart</button>
+      </div>
+    </div>
+  </body>
+</html>
